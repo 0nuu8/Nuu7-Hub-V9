@@ -360,13 +360,13 @@ local RootMaid = Maid.new()
 ----------------------------------------------------------------
 local Defaults = {
 	-- Configuración de la mecánica de juego
-	NuShoot = false,
-	ClickShot = false,
+	NuShoot = true,
+	ClickShot = true,
 	DetectionPoints = 10,
-	FOVEnabled = false,
+	FOVEnabled = true,
 	FOVSize = 200,
-	ESPEnabled = false,
-	AllyESP = false,
+	ESPEnabled = true,
+	AllyESP = true,
 	OutlineColor = Color3.fromRGB(0, 255, 255),
 	AllyOutlineColor = Color3.fromRGB(90, 220, 100),
 	SelectedBodyParts = {},
